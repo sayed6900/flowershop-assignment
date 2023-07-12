@@ -1,0 +1,19 @@
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.head{
+    max-height: 850px ;
+    padding: 0 240px 0 240px;
+    background-color:rgba(229, 84, 115, 0.10);
+    ;
+    border: 0 0 0 4050px;
+}
+.first-pic{
+    width: 635px ;
+    height: 800px; 
+}
+.top{
+    display: flex;
+}
