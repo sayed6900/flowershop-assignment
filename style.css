@@ -1,19 +1,65 @@
 body{
     font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-
-.head{
-    max-height: 850px ;
-    padding: 0 240px 0 240px;
+*{
+    margin: 0;
+}
+.header{
+    height: 850px;
+    display: flex;
     background-color:rgba(229, 84, 115, 0.10);
-    ;
-    border: 0 0 0 4050px;
+}
+header img{
+    height: 800px;
+}
+.let{
+    font-size: 55px;
+}
+.first-text{
+    padding: 100px 0 100px 100px;
+    text-align: left;
+}
+.first-pera{
+    font-size: 12px;
+    padding: 12px 12px 12px 0;
 }
 .first-pic{
-    width: 635px ;
-    height: 800px; 
+    padding: 40px 50px 0 20px;
 }
-.top{
+.button{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background: #E55473;
+    color: white;
+    border: 0;
+}
+.red-pic{
+    height: 600px;
     display: flex;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.second-pic{
+    height: 300px;
+    padding: 50px 200px 100px 50px;
+}
+.first-span{
+    color: #E55473;
+}
+.deal{
+    font-size: 30px;
+}
+.hot-deal{
+    padding: 100px 100px 100px 150px;
+    text-align: center;
+}
+.insta{
+    text-align: center;
+    padding: 50px 400px 50px 400px;
+}
+.four-pic{
+   
+    display: flex;
+   justify-content: space-around;
+  
 }
