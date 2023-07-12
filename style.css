@@ -4,11 +4,13 @@ body{
 }
 *{
     margin: 0;
+
 }
 .header{
     height: 850px;
     display: flex;
     background-color:rgba(229, 84, 115, 0.10);
+    
 }
 header img{
     height: 800px;
@@ -28,7 +30,7 @@ header img{
     padding: 40px 50px 0 20px;
 }
 .button{
-    padding: 10px 15px 10px 15px;
+    padding: 13px 17px 13px 17px;
     border-radius: 5px;
     background: #E55473;
     color: white;
@@ -58,8 +60,49 @@ header img{
     padding: 50px 400px 50px 400px;
 }
 .four-pic{
-   
     display: flex;
-   justify-content: space-around;
-  
+    gap: 10px;
+    padding: 0 100px 100px 100px;
+}
+.enter-email-pic{
+    height: 450px;
+    
+   
+    text-align: center;
+    background-image: url('../flowershop-assignment/cover.png');
+    
+}
+.flex{
+    padding-top: 50px;
+   
+}
+.input-email{
+    width: 700px;
+    height: 35px;
+    
+}
+.h{
+    padding-top: 130px;
+    font-size: 40px ;
+}
+.footer{
+    background-color: black;
+    color: #FFFFFF ;
+    height: 100px;
+    text-align: center;
+        padding: 100px;
+        
+}
+.last-h{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.last-p{
+    font-size: 15px;
+    padding: 0 50px 10px 50px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.small{
+    font-size: 13px;
+   color:rgba(255, 255, 255, 0.4) ;
 }
