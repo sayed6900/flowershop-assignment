@@ -69,7 +69,7 @@ header img{
     
    
     text-align: center;
-    background-image: url('../flowershop-assignment/cover.png');
+    background-image: url('../flowershop-assignment/cover.png',linear-gradient(90 deg,0,0));
     
 }
 .flex{
@@ -105,4 +105,38 @@ header img{
 .small{
     font-size: 13px;
    color:rgba(255, 255, 255, 0.4) ;
+}
+/* Bonus Area Style */
+.featured-flower{
+    text-align: center;
+   padding-top: 100px;
+}
+.feature-pera{
+    font-size: 12px;
+    padding-top: 25px;
+}
+.featured-three-flowers{
+   padding: 100px 100px 0 100px  ;
+    display: flex;
+    height:700px ;
+    gap: 25px;
+}
+.Pink-Flower{
+    height:450px ;
+    width: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+   
+}
+.red-flower{
+    height:450px ;
+    width: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.yellow-flower{
+    height:450px ;
+    width: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
 }
