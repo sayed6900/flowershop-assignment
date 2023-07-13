@@ -118,7 +118,7 @@ header img{
 .featured-three-flowers{
    padding: 100px 100px 0 100px  ;
     display: flex;
-    height:700px ;
+    height:800px ;
     gap: 25px;
 }
 .Pink-Flower{
@@ -139,4 +139,17 @@ header img{
     width: 350px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+}
+
+/* extra part Style */
+.support{
+    width: 1000px;
+    height: 300px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 240px 240px 240px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    
 }
